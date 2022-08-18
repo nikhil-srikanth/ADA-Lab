@@ -46,6 +46,7 @@ void main() {
 	for (i=1;i<=n;i++)
 	  if(x[i])
 	   printf("%d\t%d\t%d\n",++count,w[i],p[i]);
-	printf("Total profit = %d\n",profit);
+	printf("Count:%d",count);
+	printf("\nTotal profit = %d\n",profit);
 	getch();
 }
